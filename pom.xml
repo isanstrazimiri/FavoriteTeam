@@ -2,5 +2,17 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Team</groupId>
   <artifactId>EPL</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>f
+  <distributionManagement>
+    <repository>
+      <id>deployment</id>
+      <name>Internal Snapshot Release</name>
+      <url>http://localhost:8081/nexus/content/repositories/SR/</url>
+    </repository>
+    <snapshotRepository>
+      <id>deployment</id>
+      <name>Internal Snapshot Release</name>
+      <url>http://localhost:8081/nexus/content/repositories/SS/</url>
+    </snapshotRepository>      
+  </distributionManagement>   
 </project>
