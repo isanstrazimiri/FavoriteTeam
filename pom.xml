@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/SR/</url>
+            <url>http://localhost:8081/nexus/content/repositories/FTR/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/SS/</url>
+            <url>http://localhost:8081/nexus/content/repositories/FTS/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
